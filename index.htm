@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jackson Davis</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel = "stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/customsettings.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
+
   <body>
     <div class="navbar navbar-inverse navbar-static-top">
       <div class="container">
@@ -28,27 +32,55 @@
               </ul>
             </li>
             <li><a href = "#">About</a></li>
-            <li><a href = "#">Contact</a></li>
+            <li><a href = "#contact" data-toggle="modal">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="jumbotron text-center">
         <h1>Hello, World</h1>
         <p>Jackson Davis // Software Developer</p>
         <a class = "btn btn-info">GitHub</a>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Me:</h3>
+          <p>Rising Sophomore majoring in Computer Science</p>
+        </div>
+      </div>
     </div>
 
     <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
-        <p class="navbar-text pull-left">Site Built By Jackson Davis</p>
+        <div class="navbar-text pull-left">
+          <p>Site Built By Jackson Davis</p>
+        </div>
+        <div class="navbar-text pull-right">
+          <a href="https://www.linkedin.com/in/jacksontdavis"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="https://github.com/jacksondavis"><i class="fa fa-github fa-2x"></i></a>
+          <a href="http://stackoverflow.com/users/5059012/jaxdavis"><i class="fa fa-stack-overflow fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact</h4>
+          </div>
+          <div class="modal-body">
+            <p>For general contact and inquiries, please email jtdavis5@illinois.edu</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-icon" data-dismiss="modal">Close</a>
+        </div>
       </div>
     </div>
 
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
+
 </html>
