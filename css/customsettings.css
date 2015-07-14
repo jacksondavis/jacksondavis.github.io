@@ -1,4 +1,134 @@
-.navbar-text > a {
-  color: inherit;
+.navbar-custom.top-nav-collapse .nav.navbar-nav {
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-custom ul.nav li a {
+  font-size: 12px;
+  letter-spacing: 1px;
+    color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar-custom.top-nav-collapse ul.nav li a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  color: #fff;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu {
+    border-radius: 0; 
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li:last-child{
+  border-bottom: none;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a {
+  padding: 10px 20px;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+  background: #fefefe;
+}
+
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
+  color: #666;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.intro {
+  width:100%;
+  position:relative;
+}
+
+#intro.intro {
+  padding:10% 0 0 0;
+}
+
+.intro .slogan {
+  text-align: center;
+
+}
+.intro-text {
+  font-size: 18px;
+}
+
+.intro .slogan h2 {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
   text-decoration: none;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-color: #000;
+  border-style: none;
+  text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+  color: #fff;
+  text-shadow: -1px 1px 1px #000;
+}
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display:block;
+    position:relative;
+    z-index:120;
+}
+
+.home-section h2 {
+  color: #ffffff;
+}
+
+.section-heading h2 {
+  font-size: 40px;
+}
+.section-heading i {
+  margin-bottom: 20px;
 }
