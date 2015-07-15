@@ -120,28 +120,22 @@ header .intro-text .skills {
   min-height: 10%;
 }
 
-.home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
-    display:block;
-    position:relative;
-    z-index:120;
+section {
+    padding: 100px 0;
 }
 
-.home-section h2 {
-  color: #ffffff;
-}
-
-.section-heading h2 {
-  font-size: 40px;
-}
-.section-heading i {
-  margin-bottom: 20px;
+section h2 {
+    margin: 0;
+    font-size: 3em;
 }
 
 section.aboutMe {
-    color: #4C4C4C;
+    color: #1A1A1A;
     background: #ffffff;
+}
+
+section.aboutMe p {
+  font-size: 18px;
 }
 
 section.aboutMe a,
@@ -151,4 +145,14 @@ section.aboutMe a:active,
 section.aboutMe a.active {
     outline: 0;
     color: #2c3e50;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
 }
