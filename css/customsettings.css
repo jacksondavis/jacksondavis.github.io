@@ -42,6 +42,29 @@ header .intro-text .skills {
     }
 }
 
+.grid-container {
+    color: #1A1A1A;
+    background: #ffffff;
+}
+
+.grid-container p {
+  font-size: 18px;
+}
+
+.grid-container a,
+.grid-container a:hover,
+.grid-container a:focus,
+.grid-container a:active,
+.grid-container a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+.grid-container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
     background-color: rgba(226, 255, 255, 0.2);
 }
@@ -131,7 +154,7 @@ section h2 {
 
 section.aboutMe {
     color: #1A1A1A;
-    background: #ffffff;
+    background: #cccccc;
 }
 
 section.aboutMe p {
@@ -155,4 +178,78 @@ section.aboutMe a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+section.projects {
+    color: #1A1A1A;
+    background: #ffffff;
+}
+
+section.projects p {
+  font-size: 18px;
+}
+
+section.projects a,
+section.projects a:hover,
+section.projects a:focus,
+section.projects a:active,
+section.projects a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+.custom-hover {
+    position:relative;
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:rgba(26,76,110,0.5)
+}
+.custom-hover p,.custom-hover h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.custom-hover p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.custom-hover h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
 }
