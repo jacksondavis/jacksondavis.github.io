@@ -1,11 +1,55 @@
+header {
+    text-align: center;
+    color: #fff;
+    background: #00B88A;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(226, 255, 255, 0.2);
 }
 
 .navbar-custom ul.nav li a {
   font-size: 12px;
   letter-spacing: 1px;
-    color: #ffffff;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -34,11 +78,11 @@
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-  background: #fefefe;
+    background: rgba(226, 255, 255, 0.2);
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-  color: #666;
+    color: rgba(226, 255, 255, 0.2);
 }
 
 .navbar-custom .nav li a {
@@ -73,45 +117,7 @@
   top: 0; 
   left: 0; 
   min-width: 100%;
-  min-height: 100%;
-}
-
-.intro {
-  width:100%;
-  position:relative;
-}
-
-#intro.intro {
-  padding:10% 0 0 0;
-}
-
-.intro .slogan {
-  text-align: center;
-
-}
-.intro-text {
-  font-size: 18px;
-}
-
-.intro .slogan h2 {
-  color: #FFF;
-  text-shadow: none;
-  font-size: 60px;
-  line-height: 60px;
-  font-weight: 700;
-  font-family: Montserrat, sans-serif;
-  background-color: rgba(0, 0, 0, 0);
-  text-decoration: none;
-  text-transform: uppercase;
-  border-width: 0px;
-  border-color: #000;
-  border-style: none;
-  text-shadow: -1px 0 1px #000;
-}
-
-.intro .slogan h4 {
-  color: #fff;
-  text-shadow: -1px 1px 1px #000;
+  min-height: 10%;
 }
 
 .home-section {
@@ -131,4 +137,18 @@
 }
 .section-heading i {
   margin-bottom: 20px;
+}
+
+section.aboutMe {
+    color: #4C4C4C;
+    background: #ffffff;
+}
+
+section.aboutMe a,
+section.aboutMe a:hover,
+section.aboutMe a:focus,
+section.aboutMe a:active,
+section.aboutMe a.active {
+    outline: 0;
+    color: #2c3e50;
 }
