@@ -145,7 +145,7 @@ h2.zero,p.zero {
 }
 
 .thumb {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -234,4 +234,15 @@ footer {
     #project .project-item {
         margin: 0 0 30px;
     }
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  height: 100%;
+  border-radius: 0;
 }
