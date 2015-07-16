@@ -138,6 +138,17 @@ section.projects a.active {
     color: #2c3e50;
 }
 
+section.projects .project-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+@media(min-width:767px) {
+    section.projects .project-item {
+        margin: 0 0 30px;
+    }
+}
+
 
 h2.zero,p.zero {
     margin:0;
@@ -223,17 +234,6 @@ footer {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #a6b8b6;
     background-color: #ffffff;
-}
-
-#projects .project-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-@media(min-width:767px) {
-    #project .project-item {
-        margin: 0 0 30px;
-    }
 }
 
 .modal-dialog {
