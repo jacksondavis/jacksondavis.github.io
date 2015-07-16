@@ -65,76 +65,6 @@ header .intro-text .skills {
     padding-bottom: 50px;
 }
 
-.navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(226, 255, 255, 0.2);
-}
-
-.navbar-custom ul.nav li a {
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.navbar-custom.top-nav-collapse ul.nav li a {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-  color: #fff;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu {
-    border-radius: 0; 
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li {
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li:last-child{
-  border-bottom: none;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li a {
-  padding: 10px 20px;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li a:hover {
-    background: rgba(226, 255, 255, 0.2);
-}
-
-.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-    color: rgba(226, 255, 255, 0.2);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-
-.navbar-custom .navbar-brand {
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 #bg {
   position: fixed; 
   top: 0; 
@@ -299,7 +229,7 @@ footer {
   border-color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
+  background-color: #1F7A7A;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
@@ -325,5 +255,15 @@ footer {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #a6b8b6;
     background-color: #ffffff;
-  }
+}
+
+#projects .project-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+@media(min-width:767px) {
+    #project .project-item {
+        margin: 0 0 30px;
+    }
 }
