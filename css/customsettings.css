@@ -154,7 +154,7 @@ section h2 {
 
 section.aboutMe {
     color: #1A1A1A;
-    background: #cccccc;
+    background: #fff;
 }
 
 section.aboutMe p {
@@ -253,3 +253,6 @@ h2.zero,p.zero {
 footer {
     margin: 50px 0;
 }
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
