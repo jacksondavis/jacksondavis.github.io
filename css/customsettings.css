@@ -29,7 +29,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 
@@ -106,17 +106,18 @@ section.aboutMe a.active {
     }
 
     section.first {
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }
 
 section.projects {
     color: #1A1A1A;
-    background: #ffffff;
+    background: #fff;
 }
 
 section.projects p {
   font-size: 18px;
+  padding-bottom: 75px;
 }
 
 section.projects a,
@@ -128,49 +129,16 @@ section.projects a.active {
     color: #2c3e50;
 }
 
-.custom-hover {
-    position:relative;
-    width:300px;
-    height:200px;
-    overflow:hidden;
-    float:left;
-    margin-right:20px;
-    background-color:rgba(26,76,110,0.5)
+section.projects a,
+section.projects a:hover,
+section.projects a:focus,
+section.projects a:active,
+section.projects a.active {
+    outline: 0;
+    color: #2c3e50;
 }
-.custom-hover p,.custom-hover h2 {
-    color:#fff;
-    padding:10px;
-    left:-20px;
-    top:20px;
-    position:relative
-}
-.custom-hover p {
-    font-family:'Lato';
-    font-size:12px;
-    line-height:18px;
-    margin:0
-}
-.custom-hover h2 {
-    font-size:20px;
-    line-height:24px;
-    margin:0;
-    font-family:'Lato'
-}
-.effect img {
-    position:absolute;
-    left:0;
-    bottom:0;
-    cursor:pointer;
-    margin:-12px 0;
-    -webkit-transition:bottom .3s ease-in-out;
-    -moz-transition:bottom .3s ease-in-out;
-    -o-transition:bottom .3s ease-in-out;
-    transition:bottom .3s ease-in-out
-}
-.effect img.top:hover {
-    bottom:-96px;
-    padding-top:100px
-}
+
+
 h2.zero,p.zero {
     margin:0;
     padding:0

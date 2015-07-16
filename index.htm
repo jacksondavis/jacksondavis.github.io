@@ -57,7 +57,7 @@
     </header>
 
     <!-- Projects -->
-    <section id="projects">
+    <section class="projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -66,11 +66,23 @@
                 </div>
             </div>
             <div class="row">
-              <div id="project-picture">
-                <div class="col-sm-4">
-                  <img src="img/gallager.png" class="img-responsive" alt="">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Below are some of my personal or work related projects. Click on them to learn more or view their GitHub source code.</p>
                 </div>
-              </div>
+                <div class="col-lg-4">
+                    <p>For any questions or comments on what you see, feel free to contact me.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 project-item">
+                  <div class="project-pic">
+                    <a href = "#gallager-modal" data-toggle="modal" img src="img/gallager.png" class="img-responsive" alt="">
+                      <img src="img/gallager.png" class="img-responsive" alt="">
+                    </a>
+                  </div>
+                </div>
                 <div class="col-sm-4 project-item">
                   <img src="img/html.png" class="img-responsive" alt="">
                 </div>
@@ -132,6 +144,29 @@
             <div class="modal-footer">
               <a class="btn btn-icon" data-dismiss="modal">Close</a>
             </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="gallager-modal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Gallager+</h4>
+          </div>
+          <div class="modal-body">
+            <p>This is a Gallaga-esque game I created as a final project for my Computer Science II course.</p>
+            <p></p>
+            <p>What began as a simple Gallaga clone spawned into something much more original.</p>
+            <p></p>
+            <p>All images and sounds were created by me, and working on this program gave me a chance to combine many fundamental programming concepts as well as my side hobby of music composition to complete this entertaining project.</p>
+            <button type="button" class="btn btn-default btn-md">
+              <a href = "http://www.github.com/jacksondavis/gallager">GitHub</a>
+            </button>
+          </div>
+          <div class="modal-footer">
+          <a class="btn btn-icon" data-dismiss="modal">Close</a>
+          </div>
         </div>
       </div>
     </div>
