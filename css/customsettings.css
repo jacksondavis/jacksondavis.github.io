@@ -52,8 +52,8 @@ section h2 {
 
 section.aboutMe {
     color: #1A1A1A;
-    background: #fff;
-    padding-bottom: 300px;
+    background: #FFC233;
+    padding-bottom: 100px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -61,11 +61,37 @@ section.aboutMe p {
   font-size: 18px;
 }
 
+section.aboutMe hr {
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #000000;
+  margin: 2em 0; padding: 0; }
+}
+
 section.aboutMe a,
 section.aboutMe a:hover,
 section.aboutMe a:focus,
 section.aboutMe a:active,
 section.aboutMe a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+section.info {
+    color: #1A1A1A;
+    background: #fff;
+    padding-bottom: 300px;
+    font-family: Montserrat, sans-serif;
+}
+
+section.info p {
+  font-size: 18px;
+}
+
+section.info a,
+section.info a:hover,
+section.info a:focus,
+section.info a:active,
+section.info a.active {
     outline: 0;
     color: #2c3e50;
 }
@@ -120,7 +146,6 @@ section.projects .project-item {
     }
 }
 
-
 h2.zero,p.zero {
     margin:0;
     padding:0
@@ -133,6 +158,7 @@ h2.zero,p.zero {
 .footer {
     font-family: Montserrat, sans-serif;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .navbar-default {
