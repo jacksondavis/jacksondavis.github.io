@@ -17,7 +17,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -85,6 +85,7 @@ section h2 {
 section.aboutMe {
     color: #1A1A1A;
     background: #fff;
+    padding-bottom: 200px;
 }
 
 section.aboutMe p {
@@ -226,6 +227,7 @@ footer {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-family: Montserrat, sans-serif;
     color: #ffffff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
