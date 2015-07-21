@@ -252,8 +252,8 @@ footer {
     font-size: 3em;
 }
 
-.modal-content img {
-    margin-bottom: 30px;
+.modal-body img {
+    padding-bottom: 50px;
 }
 
 .modal-content .item-details {
