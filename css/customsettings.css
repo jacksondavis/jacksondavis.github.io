@@ -16,7 +16,6 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat, sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -55,6 +54,7 @@ section.aboutMe {
     color: #1A1A1A;
     background: #fff;
     padding-bottom: 300px;
+    font-family: Montserrat, sans-serif;
 }
 
 section.aboutMe p {
@@ -83,6 +83,7 @@ section.aboutMe a.active {
 section.projects {
     color: #1A1A1A;
     background: #fff;
+    font-family: Montserrat, sans-serif;
 }
 
 section.projects p {
@@ -129,8 +130,9 @@ h2.zero,p.zero {
     margin-bottom: 20px;
 }
 
-footer {
-    margin: 50px 0;
+.footer {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 25px;
 }
 
 .navbar-default {
