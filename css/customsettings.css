@@ -111,6 +111,8 @@ section.projects {
     color: #1A1A1A;
     background: #fff;
     font-family: Montserrat, sans-serif;
+    padding-top: 175px;
+    padding-bottom: 175px;
 }
 
 section.projects p {
