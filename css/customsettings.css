@@ -95,6 +95,28 @@ section.aboutMe a.active {
     color: #2c3e50;
 }
 
+.aboutMe h3 {
+  text-align: center;
+}
+
+.aboutMe h3 .btn-custom {
+  vertical-align: center;
+  border-radius: 75%;
+  background: transparent;
+  border-width: 2px;
+  border-color: #000000;
+  margin-top: 50px;
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.20em;
+  font-weight: 250;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
 section.info {
     color: #1A1A1A;
     background: #fff;
