@@ -6,7 +6,7 @@ header {
 
 header .container {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -22,16 +22,17 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-      font-family: Montserrat, sans-serif;
-
-    font-size: 1.20em;
-    font-weight: 250;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.20em;
+  font-weight: 250;
 }
 
 header .intro-text h3 .btn-custom {
-  border: 2px solid #fff;
-  margin-top: 50px;
+  border-radius: 75%;
   background: transparent;
+  border-width: 2px;
+  border-color: #fff;
+  margin-top: 25px;
   color: #fff;
   font-family: Montserrat, sans-serif;
   font-size: 1.20em;
@@ -45,8 +46,8 @@ header .intro-text h3 .btn-custom {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 25px;
     }
 
     header .intro-text .name {
@@ -128,7 +129,7 @@ section.projects {
     color: #1A1A1A;
     background: #fff;
     font-family: Montserrat, sans-serif;
-    padding-top: 175px;
+    padding-top: 125px;
     padding-bottom: 175px;
 }
 
@@ -161,11 +162,11 @@ section.projects .col {
 }
 
 section.projects .project-item {
-      -webkit-transition: all 0.2s ease;
-     -moz-transition: all 0.2s ease;
-       -o-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-          transition: all 0.2s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
 
 section.projects .project-item:hover {
@@ -176,6 +177,28 @@ section.projects .project-item:hover {
     section.projects .project-item {
         margin: 0 0 30px;
     }
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.projects h3 .btn-custom {
+  vertical-align: center;
+  border-radius: 75%;
+  background: transparent;
+  border-width: 2px;
+  border-color: #000000;
+  margin-top: 50px;
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.20em;
+  font-weight: 250;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
 h2.zero,p.zero {
