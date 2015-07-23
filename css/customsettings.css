@@ -204,8 +204,9 @@ section.projects .project-item:hover {
 section.projects hr {
   display: block; height: 1px;
   border: 0; border-top: 1px solid #000000;
-  margin: 2em 0; padding: 0; }
+  margin: 2em 0; padding: 0; 
 }
+
 
 .projects h3 {
   text-align: center;
