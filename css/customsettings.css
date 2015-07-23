@@ -22,8 +22,25 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+      font-family: Montserrat, sans-serif;
+
+    font-size: 1.20em;
+    font-weight: 250;
+}
+
+header .intro-text h3 .btn-custom {
+  border: 2px solid #fff;
+  margin-top: 50px;
+  background: transparent;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.20em;
+  font-weight: 250;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
 @media(min-width:768px) {
@@ -138,9 +155,21 @@ section.projects a.active {
     color: #2c3e50;
 }
 
+section.projects .col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 section.projects .project-item {
-    right: 0;
-    margin: 0 0 15px;
+      -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+section.projects .project-item:hover {
+  -webkit-filter: blur(2px);
 }
 
 @media(min-width:767px) {
@@ -301,4 +330,16 @@ h2.zero,p.zero {
 .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.blur img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(5px);
 }
