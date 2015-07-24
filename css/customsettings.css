@@ -69,7 +69,7 @@ section h2 {
 }
 
 section.aboutMe {
-    color: #1A1A1A;
+    color: #000;
     background: #fff;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -361,9 +361,10 @@ h2.zero,p.zero {
 }
 
 .footer {
+    background: #EFEDE1;
     font-family: Montserrat, sans-serif;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .navbar-default {
