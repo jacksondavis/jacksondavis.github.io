@@ -458,10 +458,10 @@ h2.zero,p.zero {
     font-size: 3em;
 }
 
-.modal-content p {
+.modal p {
     font-family: Montserrat, sans-serif;
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 1em;
+    font-weight: 20;
 }
 
 
