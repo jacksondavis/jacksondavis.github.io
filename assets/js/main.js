@@ -1,10 +1,10 @@
-var game;
+var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
-game = new Phaser.Game(600, 450, Phaser.AUTO, '');
+function preload() {
+}
 
-game.state.add('Menu', Menu);
-game.state.add('Game', Game);
-game.state.add('Game_Over', Game_Over);
+function create() {
+}
 
-
-game.state.start('Menu');
+function update() {
+}
